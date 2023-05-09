@@ -1,0 +1,33 @@
+GET http://localhost:3000/restaurant/2/
+
+###
+
+POST http://localhost:3000/restaurant/
+Content-Type: application/json
+
+{
+    "id":"6",
+    
+}
+
+###
+
+
+POST http://localhost:3000/restaurant/search
+Content-Type: application/json
+
+{
+    "search":"hyd"
+}
+
+###
+
+DELETE  http://localhost:3000/restaurant/5/
+
+###
+
+PUT http://localhost:3000/restaurant/2
+
+{
+    "description":"newly added description"
+}
